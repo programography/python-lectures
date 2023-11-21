@@ -1,32 +1,31 @@
 #                 Exception Handling 
 #                     (in Python)
-                    
-# Types of Erros:
-#     1) Compile time error
-#     2) Logical Errors
-#     3) Run time Errors
-                    
 
-#  1) Compile time error: (syntex error)
+# TYpees of Erros in python:
+#     1) Compile time Error
+#     2) Logical Error
+#     3) Run time Error
+
+
+# 1) Compile time Error : (SyntaxError)
 
 # a = 10
 # b = 20
 # c = a + b
 # print(c)
-   
-  
-# a = 10
 
 
-# if a == 10
-#     print("these are euql.")
+# if 10 == 10
+#     print("hrllooooooo")
 
 
 
-# 2) Logical Errors : 
+# 2) Logical Error : 
+
 
 # a = 10
 # b = 0
+
 # c = a/b
 
 # print(c)
@@ -34,14 +33,20 @@
 
 
 
-# 3) Run time Erros : 
-
-
-# age = int(input("Enter your age : "))
-
-# print("user age is : ", age)   
+#  3) Run time Error
 
 
 
-                    
-                    
+
+# age = int(input("ENter your age : "))
+
+# x = age + 10
+
+
+# print("helloooo")
+
+
+# print("important code")
+
+
+# print("doneee")
