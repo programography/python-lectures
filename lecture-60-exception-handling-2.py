@@ -6,34 +6,52 @@
 #     2) Logical Errors
 #     3) Run time Errors
 
+
 # try:
-#     # doutable code
+#     # doubtable code
 
 # except Exception:
-#     # it execute only, if try block have any error
+#     # only execute if try block have any error
 
 # else:
-#     # if try block have no error
-    
+#     # only if try do not have any error
+
 # finally:
-#     # it execute both .....
-    
-    
-  
-try:      
+#     # exception heandling done
+
+a = 10
+b = 0
+
+try:
+    c = a / b
     age = int(input("Enter your age : "))
 
-except Exception as e:
-    print("errro handel esucessfully..")
+except Exception:
+    print("error handeled")
 
 else:
-    print("user age is : ", age)
-
-finally:
-    print("execption handling done....")
-
-
-print("helo")
-
-print("code done")
+    print("User age is : ", age)
     
+finally:
+    print("exception heandling done..")
+
+
+print("eloooo")
+
+print("imp code")
+
+print("done")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
