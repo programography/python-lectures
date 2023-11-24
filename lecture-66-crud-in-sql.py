@@ -7,22 +7,22 @@ use programography;
 
 create table ContactUs(Name varchar(50), Email varchar(50), message text);
 
-
-insert into ContactUs values("moris", "moris@gmail.com", "this is moris message");
-
-update ContactUs set Email = "krissmoris@gmail.com" where Name = "moris";
+insert into ContactUs values("hlo", "hlo@gmail.com", "this is hlo text");
 
 show tables;
 
 select * from ContactUs;
 
-delete from ContactUs where Name = "kriss";
+update ContactUs set Email = "thisismyemail@gmail.com" where Name = "moriss";
 
--- CRUD -- 
+update ContactUs set message = "this is new messsage by update" where Name = "hlo";
+-- CRUD-- 
 
 
-SET SQL_SAFE_UPDATES = 0;
+delete from ContactUs where Name = "moriss";
 
+
+set sql_safe_updates = 0;
 
 
 
